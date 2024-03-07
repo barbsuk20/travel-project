@@ -152,6 +152,7 @@ section.secondary {
   width: 100%;
   aspect-ratio: 1/1;
 }
+
 .btn {
   display: block;
   color: white;
@@ -206,6 +207,10 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+
   header {
     padding: 60px 0;
   }
@@ -242,5 +247,10 @@ footer a:hover {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+
+  main img {
+    margin: 0 auto;
+    max-width: 60%;
   }
 }
